@@ -1,6 +1,3 @@
-//BaaaaaaaarkingDog code
-//slove()¿¡¼­ Àç±Í·Î µé¾î°¨. ´Ü, ¤Ç¸ğ¾çÀÇ µµÇü Ã³¸®ÇÏ´Â °úÁ¤ À¯ÀÇÇÏ±â. Àç±Í ³¡±îÁö µé¾î°¡°í ¸®ÅÏÇÏ¸é¼­ cnt°¡ 2ÀÏ¶§
-//Ã³À½ ½ÃÀÛ À§Ä¡ ÁÂÇ¥¸¦ solveÀÇ ¸Å°³º¯¼ö·Î ¼³Á¤ÇÏ´Â µğÅ×ÀÏ.
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -17,11 +14,11 @@ using namespace std;
 //int dy[6] = { 1,0,-1,0,0,0 };
 //int dz[6] = { 0,0,0,0,1,-1 };
 
-int dx[4] = { -1,0,1,0 }; //ºÏ, µ¿, ³², ¼­
+int dx[4] = { -1,0,1,0 }; //ë¶, ë™, ë‚¨, ì„œ
 int dy[4] = { 0,1,0,-1 };
 int N;
 int arr[12];
-int oper[4]; //¼ø¼­´ë·Î + - * /
+int oper[4]; //ìˆœì„œëŒ€ë¡œ + - * /
 
 void solve(int& a, int b, int op) {
 
